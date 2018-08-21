@@ -10,7 +10,7 @@ module.exports.run = (bot, message, args, discord) => {
 		.setThumbnail(message.author.displayAvatarURL)
 		.setColor(`#FF0000`)
 		.setTimestamp()
-		.setURL("https://github.com/FreakingHulk-Gaming/JSHulkbot")
+		.setURL("https://github.com/Tqcoz/ZanityPanel/")
 		.setFooter('Already authorized!');
 		
 		message.channel.send({embed: em});
@@ -33,7 +33,7 @@ module.exports.run = (bot, message, args, discord) => {
 			.setThumbnail(message.author.displayAvatarURL)
 			.setColor(`#FF0000`)
 			.setTimestamp()
-			.setURL("https://github.com/FHGDev/JSHulkbot")
+			.setURL("https://github.com/Tqcoz/ZanityPanel/")
 			.setFooter('ERROR');
 
 			message.channel.send({embed: em});
